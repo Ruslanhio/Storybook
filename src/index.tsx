@@ -30,7 +30,7 @@ let users = [
     }
 },
     {
-        name: 'Dimon',
+        name: 'Dima',
         age: 25,
         adress: {
             city: 'Bobruisk',
@@ -42,11 +42,9 @@ let users = [
 
 console.log(users[0].adress.country);
 
-let b
-b = [1,2,3,4]
-b = []
-b = 10
-b = true
+
+
+
 
 
 

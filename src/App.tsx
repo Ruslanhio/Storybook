@@ -1,13 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 const App = () => {
-  return (
-    <div>
-      This is APP component
-    </div>
-  );
+
+    return (
+        <div>
+            This is APP component
+            <Rating/>
+            <According/>
+        </div>
+    );
 }
+
+function Rating() {
+    return (
+        <div>
+            <div>start</div>
+            <div>start</div>
+            <div>start</div>
+        </div>
+    )
+}
+
+
+function According() {
+    return <div>
+        <h3>Меню</h3>
+
+    </div>
+}
+
+
 
 export default App;
